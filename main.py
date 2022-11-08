@@ -513,6 +513,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--cutmix", action="store_true")
     parser.add_argument("--mixup", action="store_true")
+    parser.add_argument("--mixup-lims", type=str, default=None)
     parser.add_argument("--label-smoothing", type=float, default=None)
     parser.add_argument("--augmentation", type=str, default="full")
     parser.add_argument("--num-augs", type=int, default=None)
