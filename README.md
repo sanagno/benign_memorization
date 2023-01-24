@@ -23,9 +23,11 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset CIFAR10 --model resnet18_small -
 and wait for a few days.
 
 If you like our paper please cite as:
+```
 @article{anagnostidis2022curious,
   title={The Curious Case of Benign Memorization},
   author={Anagnostidis, Sotiris and Bachmann, Gregor and Noci, Lorenzo and Hofmann, Thomas},
   journal={arXiv preprint arXiv:2210.14019},
   year={2022}
 }
+```
